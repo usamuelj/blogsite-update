@@ -1,0 +1,331 @@
+ *{
+    padding: 0%;
+    margin: 0%;
+}
+.whole-head{
+    background-color: #FFFFFF;
+}
+.header{
+    margin-top:40px ;
+    margin-left: 70px;
+}
+.header a{
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
+a :hover{
+    cursor: pointer;
+}
+.first-btn{
+    float: right;
+    margin-right: 300px;
+    padding: 14px;
+    width: 140px;
+    font-size: 17px;
+    border-radius: 25px;
+    border: 1px solid black;
+    background-color: white;
+}
+.first-btn:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+.second-btn{
+    position: relative;
+    left: 785px;
+    padding: 14px;
+    width: 200px;
+    font-size: 17px;
+    border-radius: 25px;
+    border: 1px solid black;
+    background-color: rgb(46, 44, 44);
+    color: white;
+}
+.second-btn:hover{
+    cursor: pointer;
+}
+.nav-bar{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding: 23px;
+    gap: 60px;
+    font-size: 18px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.first-cont {
+    display: inline-block;
+    position: relative;
+    margin-left: -20px;
+    
+  }
+  .first-cont a{
+    text-decoration: none;
+    color: black;
+  }
+  .first-cont a:hover{
+    color: #b848f5;
+  }
+  .sub-cont {
+    display: none;
+    position: absolute;
+    width: 150%;
+    font-size: 15px;
+    padding: 15px;
+    background-color: #FFFFFF;
+  }
+  .first-cont:hover .sub-cont {
+    display: block;
+  }
+  .sub-cont a {
+    display: block;
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
+  }
+  .sub-cont a:hover {
+    color:#FFFFFF ;
+    background-color: #b848f5;
+  }
+.second-cont {
+    display: inline-block;
+    position: relative;
+  }
+  .second-cont a{
+    text-decoration: none;
+    color: black;
+  }
+  .second-cont a:hover{
+    color: #b848f5;
+  }
+  .word {
+    display: none;
+    position: absolute;
+    width: 120%;
+    overflow: hidden;
+    font-size: 15px;
+    padding: 15px;
+    background-color: #FFFFFF;
+  }
+  .second-cont:hover .word {
+    display: block;
+  }
+  .word a {
+    display: block;
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
+  }
+  .word a:hover {
+    color: #FFFFFF;
+    background-color: #b848f5;
+  }
+  .third a{
+    text-decoration: none;
+    color: black;
+  }
+  .third a:hover{
+    color: #b848f5;
+  }
+  .fourth {
+    display: inline-block;
+    position: relative;
+    
+  }
+  .fourth a{
+    text-decoration: none;
+    color: black;
+  }
+  .fourth a:hover{
+    color: #b848f5;
+  }
+  .fourth-cont {
+    display: none;
+    position: absolute;
+    width: 130%;
+    font-size: 15px;
+    padding: 15px;
+    background-color: #FFFFFF;
+  }
+  .fourth:hover .fourth-cont {
+    display: block;
+  }
+  .fourth-cont a {
+    display: block;
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
+  }
+  .fourth-cont a:hover {
+    color: #FFFFFF;
+    background-color:#b848f5 ;
+  }
+  .fifth {
+    display: inline-block;
+    position: relative;
+    
+  }
+  .fifth a{
+    text-decoration: none;
+    color: black;
+  }
+  .fifth a:hover{
+    color: #b848f5;
+  }
+  .fifth-cont {
+    display: none;
+    position: absolute;
+    width: 200%;
+    background-color: #FFFFFF;
+    font-size: 18px;
+    padding: 15px;
+  }
+  .fifth:hover .fifth-cont{
+    display: block;
+  }
+  .fifth-cont a {
+    display: block;
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
+  }
+  .fifth-cont a:hover {
+    color: #FFFFFF;
+    background-color: #b848f5;
+  }
+  .sixth input{
+    border: none;
+    font-size: 18px;
+  }
+  .whole-body{
+    margin-top: 50px;
+    margin-left: 150px;
+  }
+  .first-body img{
+    margin-top: 60px;
+    height: 450px;
+    width: 500px;
+  }
+  .fst-p{
+    font-size: 15px;
+    margin-bottom: 50px;
+  }
+  .first-body h3{
+    font-size: 40px;
+  }
+  .move{
+    margin-top: 40px;
+    font-size: 20px;
+  }
+  .par{
+    margin-top: 30px;
+  }
+  .move a{
+    text-decoration: none;
+    color: rgb(102, 86, 248);
+  }
+  .para{
+    margin-top: 30px;
+  }
+  .rag{
+    margin-top: 30px;
+  }
+  .second-p{
+    margin-top: 30px;
+    font-size: 20px;
+  }
+  .second-p a{
+    text-decoration: none;
+    color: rgb(102, 86, 248);
+  }
+  .pas{
+    margin-top: 30px;
+  }
+  .pasa{
+    margin-top: 30px;
+  }
+  .second-p img{
+    margin-top: 40px;
+    width: 500px;
+    height: 450px;
+  }
+  .third-p{
+    margin-top: 30px;
+    font-size: 20px;
+  }
+  .third-p a{
+    text-decoration: none;
+    color: rgb(102, 86, 248);
+  }
+  .third-p img{
+    margin-top: 40px;
+    width: 500px;
+    height: 450px;
+  }
+  .fourth-p{
+    margin-top: 30px;
+    font-size: 20px;
+  }
+  .fourth-p a{
+    text-decoration: none;
+     color: rgb(102, 86, 248);
+  }
+  .fourth-p img{
+    margin-top: 40px;
+    width: 550px;
+    height: 450px;
+  }
+  .footer{
+    margin-top: 80px;
+    margin-left: 150px;
+    font-size: 20px;
+  }
+  .footer img{
+    width: 80px;
+    height: 80px;
+    float: left;
+    border-radius: 50px;
+    margin-right: 50px;
+  }
+  .footer h3{
+    position: relative;
+    top: 6px;
+  }
+  .footer p{
+    margin-top: 15px;
+  }
+  .futy{
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 550px;
+    border-top: 1px solid rgb(205, 200, 200);
+  }
+  .futty{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    gap: 35px;
+  }
+  .futty a{
+    text-decoration: none;
+    color: black;
+  }
+  .futty a:hover{
+    color: #b848f5;
+  }
+  .futty h3{
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .futy img{
+    width: 15px;
+    height: 15px;
+    margin-top: 5px;
+  }
+  .futty p{
+    margin-left: 95px;
+  }
