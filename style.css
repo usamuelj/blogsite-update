@@ -205,17 +205,20 @@ a :hover{
     margin-top: 50px;
     margin-left: 150px;
   }
-  .first-body img{
-    margin-top: 60px;
-    height: 450px;
-    width: 500px;
-  }
+  
   .fst-p{
     font-size: 15px;
     margin-bottom: 50px;
   }
   .first-body h3{
     font-size: 40px;
+  }
+  .img{
+    display:flex;
+    gap: 50px;
+    margin-top: 60px;
+    height: 70vh;
+    width: 80px;
   }
   .move{
     margin-top: 40px;
